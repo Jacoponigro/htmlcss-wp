@@ -11,11 +11,13 @@ main::after{
   display: block;
   clear: both;
 }
+header{
+  border: 5px solid #fff;
+}
 /* header */
 #container{
   width: 70%;
   margin: auto;
-  border: 5px solid #fff;
 }
 .header-top{
   position: relative;
@@ -40,9 +42,9 @@ main::after{
 /* fine header */
 /* colonna sinistra */
 .col-left{
-  width: 15%;
+  width: 26%;
   float: left;
-  margin: 10px;
+  margin: 10px 10px 10px 0px;
   background-color: #fff;
   border-radius: 4px;
   padding: 5px;
@@ -66,23 +68,23 @@ ul{
   float:left;
   margin: 10px;
   border-radius: 5px;
-  width: 30%;
+  width: 45%;
   padding: 10px;
 }
 .col-centro h3{
   text-align: center;
   margin-bottom: 10px;
+  text-shadow: 1px 1px black;
 }
 /* fine colonna c entrale */
 /* colonna destra */
 .col-right{
   float: left;
-  width:15%;
+  width:25%;
 }
 .widget{
-  margin: 10px;
+  margin: 10px 0px 10px 10px;
   border-radius: 5px;
-
   padding: 10px;
   background-color: #fff;
 }
@@ -91,8 +93,37 @@ ul{
   text-align: center;
 }
 /* fine colonna destra */
+/* piè di pagina */
 footer{
   height:80px;
-  background-color: #A4D2E1;
+  background-color: #fff;
   margin:10px;
+  border-radius: 5px;
 }
+.footer-top{
+  border-bottom: 2px solid lightgrey;
+}
+.footer-top{
+  text-align: center;
+  color: lightgrey;
+}
+.footer-bottom .fa-facebook-square{
+  font-size: 30px;
+  color:lightgrey;
+}
+.footer-bottom .fa-instagram{
+  font-size: 30px;
+  color: lightgrey;
+}
+.footer-bottom .fa-github{
+  font-size: 30px;
+  color: lightgrey;
+}
+.footer-bottom li{
+  display: inline-block;
+  list-style: none;
+  float:left;
+  padding: 0px 160px;
+  line-height: 59.6px;
+}
+/* fine piè di pagina */
