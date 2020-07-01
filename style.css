@@ -6,14 +6,12 @@
 body{
   background-image: url(img/sfondo.png);
 }
-main{
-  height: 500px;
-}
 main::after{
   content: "";
   display: block;
   clear: both;
 }
+/* header */
 #container{
   width: 70%;
   margin: auto;
@@ -39,32 +37,60 @@ main::after{
   display: inline-block;
   padding: 5px 10px;
 }
+/* fine header */
+/* colonna sinistra */
 .col-left{
-  height:75%;
-  width: 30%;
-  background-color: #CC87DA;
+  width: 15%;
   float: left;
   margin: 10px;
+  background-color: #fff;
+  border-radius: 4px;
+  padding: 5px;
 }
-.col-centro{
-  width:40%;
-  height:98%;
-  background-color: #730671;
-  float:left;
-  margin: 10px;
+.col-left h3{
+  text-align: center;
+  margin-bottom: 15px;
 }
-.col-right{
-  height:95%;
-  width:26%;
-  float: left;
+ul{
+  list-style: none;
 }
-.double{
-  height:40%;
-  width:100%;
-  margin:10px;
-  background-color: #CC87DA;
+.col-left p{
+  margin-bottom: 15px;
+  color: green;
 }
 
+/* fine colonna sinistra */
+/* colonna centrale */
+.col-centro{
+  background-color: #fff;
+  float:left;
+  margin: 10px;
+  border-radius: 5px;
+  width: 30%;
+  padding: 10px;
+}
+.col-centro h3{
+  text-align: center;
+  margin-bottom: 10px;
+}
+/* fine colonna c entrale */
+/* colonna destra */
+.col-right{
+  float: left;
+  width:15%;
+}
+.widget{
+  margin: 10px;
+  border-radius: 5px;
+
+  padding: 10px;
+  background-color: #fff;
+}
+.widget h3{
+  margin-bottom: 10px;
+  text-align: center;
+}
+/* fine colonna destra */
 footer{
   height:80px;
   background-color: #A4D2E1;
